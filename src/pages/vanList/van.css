@@ -1,0 +1,30 @@
+.van-list {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 15px;
+}
+.van-title img {
+  width: 100%;
+}
+.van-info {
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.van-info h3 {
+  color: salmon;
+  font-size: 1.1rem;
+}
+.van-info p {
+  color: green;
+  font-size: 1rem;
+}
+.van-class {
+  text-align: center;
+  color: white;
+  background: #333;
+  padding: 4px;
+}
+.van-class i {
+  font-style: normal;
+  font-size: 0.8rem;
+}
